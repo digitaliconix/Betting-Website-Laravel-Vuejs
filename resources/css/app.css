@@ -1,0 +1,96 @@
+span.round-tab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #0e214b;
+    font-weight: 500;
+    border: 1px solid #ddd;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #0db02b;
+    color: #fff;
+    border-color: #0db02b;
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+.wizard .nav-tabs > li.active > a i{
+    color: #0db02b;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+.wizard .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+.wizard .nav-tabs > li a i{
+    position: absolute;
+    top: -15px;
+    font-style: normal;
+    font-weight: 400;
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+
+}
+
+
+.wizard h3 {
+    margin-top: 0;
+}
+.prev-step,
+.next-step{
+    font-size: 13px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.next-step{
+    background-color: #0db02b;
+}
+.skip-btn{
+    background-color: #cec12d;
+}

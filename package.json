@@ -1,0 +1,47 @@
+{
+    "private": true,
+    "scripts": {
+        "admin-dev": "npm run admin-development",
+        "admin-development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --env.mixfile=admin.mix --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "admin-watch": "npm run admin-development -- --watch",
+        "client-dev": "npm run client-development",
+        "client-development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --env.mixfile=client.mix --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "client-watch": "npm run client-development -- --watch",
+        "care_giver-dev": "npm run care_giver-development",
+        "care_giver-development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --env.mixfile=care_giver.mix --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "care_giver-watch": "npm run care_giver-development -- --watch",
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "admin-production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --env.mixfile=admin.mix --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "client-production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --env.mixfile=client.mix --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "care_giver-production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --env.mixfile=care_giver.mix --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "axios": "^0.19",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^7.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.20.1",
+        "sass-loader": "^8.0.0",
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+        "@vue/babel-plugin-transform-vue-jsx": "^1.2.1",
+        "laravel-echo": "^1.11.4",
+        "moment": "^2.29.1",
+        "postcss-rtl": "^1.7.3",
+        "pusher-js": "^7.0.6"
+    }
+}

@@ -1,0 +1,467 @@
+section.service .box-overlay .overlay h3 {
+    font-size: 32px;
+}
+@media (max-width: 1780px) {
+	.main-post .form-content {
+	    padding: 5% 10% 5% 100px;
+	}
+}
+@media (max-width: 1660px) {
+	.main-post .form-content {
+	    padding: 5% 5% 5% 50px !important;
+	}
+	.trade-form .form-content .list-box .content a.btn{
+	    padding: 10px 20px;
+	}
+}
+@media (max-width: 1366px) {
+	.trade-form .form-content {
+	    padding: 5% 22% 5% 60px;
+	}
+	.trade-form .form-content .list-box .content ul li strong{
+		    font-size: 14px;
+	}
+}
+@media (max-width: 1199px) {
+	header nav li a, footer .footer-menu ul li a, footer .copyright p, .slider .item .slider-content p, section.about .content ul li, .sec-para,section.log-sign .form-content .sec-para{
+        font-size: 15px !important;
+ 	}
+	header nav li a{
+	    padding: 10px 8px !important;
+	}
+	.inner-page .item .banner {
+	    height: 450px !important;
+	}
+	.slider .item .slider-content h1{
+		font-size: 50px;
+	}
+	.sec-heading{
+	    font-size: 45px;
+	}
+	section.contact-details .box p{
+	    line-height: 30px;
+        font-size: 18px;
+	}
+	.slider .item .banner{
+	    height: 700px !important;
+	}
+	.slider .slick-dots{
+	    bottom: 80px !important;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	section.about .content ul li::before{
+		background-size: 100%;
+	}
+	section.service .box-overlay .img-box {
+	    height: 450px;
+	}
+	.form-content form .form-control,
+	.form-content form button{
+	    min-height: 70px;
+	}
+	.trade-form .form-content .list-box{
+		width: 100%;
+	}
+}
+@media (max-width: 992px) {
+	header .navbar{
+    justify-content: flex-start !important;
+    position: relative;
+	}
+		header .navbar .navbar-toggler{
+	    position: absolute;
+	    right: 0;
+	    background-color: #fff;
+	    top: 20px;
+	}
+	 header div#navbarSupportedContent {
+	    position: absolute;
+	    z-index: 99;
+	    background-color: #000421;
+	    top: 80px;
+	    right: 0;
+	    left: 0;
+	    margin: auto;
+	    box-shadow: 0px 0px 20px 0px #fff;
+	    text-align: center;
+	}
+	header .navbar .navbar-toggler span{}
+	header .navbar .navbar-nav{
+		padding: 30px 20px;
+	}
+	.slider form{
+		    padding: 50px 40px 220px;
+	}
+	.slider form ul li:last-child{
+	    width: calc(100%);
+	}
+	.slider form ul li{
+		width: calc(50%);
+	}
+	.slider .item .slider-content h1{
+		font-size: 45px;
+	}
+	.sec-heading {
+	    font-size: 35px;
+	}
+	section.about .content ul li{
+	    line-height: 30px;
+	}
+	section.service .box-overlay .img-box {
+	    height: 350px;
+	}
+	header nav li a, footer .footer-menu ul li a, footer .copyright p, .slider .item .slider-content p, section.about .content ul li, .sec-para, section.aboutnew .content li,section.log-sign .form-content .sec-para {
+	    font-size: 13px !important;
+	    line-height: 24px !important;
+	}
+	footer .footer-menu ul li{
+	    margin: 0px 0px 0px 10px;
+	}
+ 	.inner-page.slider .item .banner {
+	    height: 340px !important;
+	}
+	section.aboutnew .content{
+		padding: 0 1% 0 10%;
+	}
+	section.work-sec ul li{
+	    width: calc(92%/2);
+	}
+	section.work-sec .box span{
+		    font-size: 160px;
+	}
+	section.blogs ul li{
+		width: 60%;
+	}
+	section.blogs ul li:nth-child(2n+1){
+		    width: 34%;
+	}
+	section.blogs .box .img-box{
+		height: 740px;
+	}
+	section.blogs ul li .box span {
+	    font-size: 12px;
+	}
+	section.blogs ul li:nth-child(2n+1) .box h3 {
+	    font-size: 18px;
+	}
+	section.blogs .box .overlay p{
+		font-size: 18px;	
+	    line-height: 26px;
+	}
+	section.blogs .box .overlay{
+		    bottom: 4%;
+	}
+	.contact-form form .form-group {
+	    margin: 5px 0;
+	}
+	section.contact-details .box p {
+	    line-height: 22px;
+	    font-size: 14px;
+	}
+	.thank-modal .modal-dialog{
+		max-width: 75%;
+	}
+	.trade-form .side-navbar {
+	    padding: 8% 20px 0px 20px;
+	    width: 280px;
+	}
+	.trade-form .form-content {
+	    padding: 8% 8% 8% 8%;
+	}
+	.trade-form .side-navbar .nav a.nav-link{
+		font-size: 18px;
+	    margin: 0 0 20px;
+	}
+	.trade-form .side-navbar .nav a.nav-link{
+		padding: 0 0;
+	}
+	.trade-form .active-cont {
+	    margin-left: 280px;
+	}
+	.trade-form .form-content .post-box .overlay a.btn{
+	    width: 40%;
+	}
+	.main-post .form-content {
+	    padding: 5% 8% 5% 50px !important;
+	}
+	.trade-form .form-content .list-single-box li{
+		line-height: 26px;
+	    font-size: 16px;
+	    margin: 0 0 20px;
+	}
+	.trade-form .form-content .list-single-box .img-box img{
+	    height: 260px;
+	}
+}
+@media (max-width: 767px){
+	body{
+		text-align: center;
+	}
+	.slider form ul li input,
+	.slider form ul li button{
+	    font-size: 12px;
+	}
+	section.about .content {
+	    padding: 0px 0px 40px 10%;
+	    text-align: center;
+	}
+	.height-800 .img-box {
+	    height: 400px !important;
+	}
+	section.service .container-fluid{
+		/*padding: 0 15px !important;*/
+	}
+	section.aboutnew .content {
+	    padding: 30px 10% 20px 10%;
+	}
+	section.aboutnew .img-box {
+	    height: 400px;
+	}
+	footer .text-right,
+	footer .social-icon ul,
+	.slider form h2{
+		text-align: center !important;
+	}
+	footer .footer-menu {
+	    margin: 20px 0 0;
+	}
+	section.aboutnew .content li{
+	    padding: 5px 0 5px 25px;
+	}
+	section.work-sec .box h3{
+	    font-size: 20px;
+	}
+	section.work-sec .box h6{
+	    font-size: 14px;
+	}
+	section.blogs ul li{
+	    width: 100% !important;
+	    float: unset !important;
+	    margin: 30px 0;
+	}
+	.thank-modal .modal-body h3{
+	    font-size: 45px;
+	}
+	.thank-modal .modal-body .img-box img {
+	    height: 60px;
+	}
+	section.log-sign{
+	    padding: 10% 0;
+	}
+	.trade-form{
+		text-align: left;
+	}
+	/**/
+	.trade-form .side-navbar {
+	    margin-left: 0;
+	    width: 80%;
+	    z-index: 22;
+	}
+	.trade-form .my-container {
+	    margin-left: 0;
+	}
+	.trade-form .my-container #menu-btn {
+	    margin-left: 60%;
+	    z-index: 333;
+	}
+	/**/
+	.trade-form .active-nav {
+	    margin-left: -80%;
+	}
+	.trade-form .active-cont {
+	    margin-left: 0px;
+	}
+	.trade-form .active-cont #menu-btn {
+	    margin-left: -50px !important;
+	}
+	.trade-form .form-content .media{
+		display: block;
+	}
+	.trade-form .form-content .list-single-box .img-box img {
+	    height: 280px;
+	}
+	.trade-form .form-content .list-single-box .price h4{
+	    font-size: 70px;
+	    line-height: 100px;
+	}
+}
+
+@media (max-width: 567px){
+	.slider form {
+    	padding: 30px 15px 200px;
+	}
+	.slider .slick-dots li a{
+	    font-size: 16px;
+	}
+	.slider .slick-dots li.slick-active a{
+		font-size: 20px;
+	}
+	.slider .slick-dots li:hover a::after, .slider .slick-dots li.slick-active a::after {
+	    width: 2px;
+	    height: 28px;
+	}
+	.slider .item .slider-content h1 {
+    	font-size: 35px;
+	}
+	.slider form h2{
+	    font-size: 15px;
+	}
+	section.about .content{
+		padding: 0px 5% 40px 5%;
+	}
+	.thank-modal .modal-dialog {
+	    max-width: 90%;
+	    margin: auto;
+	}
+	.slider form ul li button{
+	    margin: 10px 0px 0px;
+	}
+	section.about{
+	    padding: 40px 0px 10px;
+	}
+	section.work-sec ul li {
+	    width: 100%;
+	    float: unset;
+	    top: 0 !important;
+	    margin: 0;
+	}
+	section.work-sec .box span {
+	    font-size: 240px;
+	}
+	section.log-sign .form-content .logo img {
+	    width: 80%;
+	    height: 80%;
+	}
+	.form-content form .form-control,
+	.form-content form button{
+		min-height: 60px;
+		font-size: 14px;
+		padding: 15px 15px;
+	}
+	.form-content form button{
+	    font-size: 16px !important;
+	}
+	section.log-sign{
+	    padding: 20% 0;
+	}
+	.trade-form .side-navbar{
+		padding: 20% 20px 0px 20px;
+	}
+	.trade-form .side-navbar .nav {
+	    padding: 40px 20px 0;
+	}
+	.form-content form label{
+		font-size: 14px;
+	    line-height: 24px;
+	}
+	.trade-form .form-content {
+	    padding: 10% 8% 10% 8%;
+	}
+	.trade-form .profile-pic{
+		width: 100%;
+	}
+	.trade-form .form-content .post-box .overlay a.btn{
+	    width: 60%;
+	}
+	.trade-form .form-content .post-box .overlay{
+	    padding: 0 15px;
+	}
+	.form-content form.edit-post .form-control.after.camera:before{
+	    font-size: 60px;
+	}
+	.main-post .form-content {
+	    padding: 5% 8% 5% 30px !important;
+	}
+	.trade-form .form-content .list-box .content{
+	    display: block !important;
+	}
+	.trade-form .form-content .list-single-box .img-box img {
+	    height: 220px;
+	}
+	.trade-form .form-content .list-box .img-box .overlay h6{
+		font-size: 16px !important;
+	}
+	.trade-form .form-content .list-box .img-box .overlay{
+		padding: 5px 30px;
+	}
+}
+@media (max-width: 414px){
+	.sec-heading {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+	section.contact-details,
+	.contact-form,
+	section.work-sec,
+	section.blogs{
+	    padding: 50px 0;
+	}
+	footer .footer-menu{
+	    width: 100%;
+	}
+	footer .footer-menu ul li{
+	    display: block;
+	}
+	section.contact-details .box{
+	    margin: 0 0 20px;
+	}
+	section.contact-details .box .iconic {
+    	margin: 0 auto 10px;
+	}
+	.slider .item .slider-content h1 {
+	    font-size: 30px;
+	}
+	.slider form {
+	    padding: 30px 15px 300px;
+	}
+	.slider form ul li {
+	    width: 100%;
+	}
+	section.service .box-overlay .overlay p,
+	section.blogs .box .overlay p{
+	    font-size: 14px;
+	}
+	section.blogs .box .img-box {
+	    height: 600px;
+	}
+	.thank-modal .modal-content{
+		background: rgba(255, 255, 255, 0.6);
+	}
+	.thank-modal .modal-body p{
+	    font-size: 18px;
+	}
+	.trade-form .form-content {
+	    padding: 10% 10% 10% 10%;
+	}
+	.trade-form .my-container #menu-btn {
+		margin-left: 50%;
+	}
+	.trade-form .side-navbar h4{
+	    font-size: 15px;
+	}
+	.trade-form .my-container #menu-btn{
+	    margin-left: 50%;
+	}
+	.trade-form .form-content .list-single-box .img-box img {
+	    height: 150px;
+	}
+	.trade-form .form-content .list-single-box .price h4 {
+    	font-size: 50px;
+	    line-height: 80px;
+	}
+	.trade-form .form-content .list-single-box li img {
+	    padding: 0 10px 0 0;
+	}
+	.trade-form .form-content .list-box .img-box {
+	    height: 200px;
+	}
+	.trade-form .form-content .list-single-box p,
+	.trade-form .form-content .list-single-box li{
+	    font-size: 14px !important;
+	}
+}
